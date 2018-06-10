@@ -5,7 +5,7 @@ Build a Final Grade Calculator in Java that can be used for any of your courses 
 
 * Final grades in a course consist of a number of categories (ie Labs, Assignments, Exam, etc.) each of
   which has a weighting (ie 10%, 25%, 30% , etc) which contribute to a total of 100% .
-* Program can be used for mutiple students grade
+* Program can be used for calculating multiple students grade
 * Program handles a variable number of categories in a course.
 	* To run the program you will required two text files:
   		- CourseGrading Schema
@@ -21,13 +21,13 @@ Build a Final Grade Calculator in Java that can be used for any of your courses 
 
 	Breakdown of above example line by line (left to right): -
 
-	* DataStructure: Name of the course
-	* 5 represents: Number of categories (ie HybridActivities, Labs, Assignments, etc.)
-	* HybridActivities: Name of category
-	* 5.0 represents: Weight of category
-	* 6 represents: Number of assessments in the category (ie HA1, HA2, HA3, etc.)
-	* HA1 represents: Name of assessment
-	* 5 represents: assessment outOfGrade
+	- DataStructure: Name of the course
+	- 5 represents: Number of categories (ie HybridActivities, Labs, Assignments, etc.)
+	- HybridActivities: Name of category
+	- 5.0 represents: Weight of category
+	- 6 represents: Number of assessments in the category (ie HA1, HA2, HA3, etc.)
+	- HA1 represents: Name of assessment
+	- 5 represents: assessment outOfGrade
 
 ### Here is the Example of StudentGrades According to CourseGrading Schema: -
 	Fleming
